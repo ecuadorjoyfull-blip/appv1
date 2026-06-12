@@ -59,7 +59,7 @@ export default function Dashboard() {
           <p className="text-slate-500 mt-1">Campaña Mundial + Bienestar Familiar | Joyfull Ecuador</p>
         </header>
 
-        <MetricsCards />
+         <MetricsCards data={list} />
 
         {/* BARRA DE FILTROS ESTILO AIRTABLE/NOTION */}
         <div className="mt-12 mb-6">
