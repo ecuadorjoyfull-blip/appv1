@@ -58,7 +58,7 @@ export const editorialData: ContentItem[] = [
     id: "dia-3",
     dia: 3,
     objetivo: "Branding",
-    formato: "Carrusel-Reel",
+    formato: "Carrusel",
     tema: "SI JOYFULL FUERA UNA SELECCIÓN",
     gancho: "¿Y si Joyfull jugara el Mundial?",
     guion: [
