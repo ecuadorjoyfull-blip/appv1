@@ -70,7 +70,7 @@ export default function Dashboard() {
     <div className="min-h-screen bg-slate-50 p-8 font-sans">
       <div className="max-w-6xl mx-auto">
         <header className="mb-8">
-          <h1 className="text-3xl font-black text-slate-800">Content Hub</h1>
+          <h1 className="text-3xl font-black text-slate-800">Joyfull Content Hub</h1>
           <p className="text-slate-500 mt-1">Campaña Mundial + Bienestar Familiar | Joyfull Ecuador</p>
         </header>
 
