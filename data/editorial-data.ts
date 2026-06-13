@@ -26,7 +26,13 @@ export const editorialData: ContentItem[] = [
     cta: "Comenta cuál personaje no puede faltar en tu casa.",
     hashtags: ["#JoyfullEcuador", "#MundialEnFamilia", "#FamiliaEcuatoriana", "#MomentosFelices", "#VidaSaludable"],
     viralidad: 8,
-    estado: "Pendiente"
+    estado: "Pendiente",
+    // ...
+copyInstagram: "No recordamos todos los resultados de un Mundial. Pero sí recordamos con quién lo vimos. En JOYFULL creemos que los mejores momentos siempre se disfrutan juntos. ¿Quién es el personaje más divertido de tu familia cuando hay partido?",
+copyTikTok: "Identifica a tu familia en este video 😂⚽",
+dificultad: "Baja",
+tiempoGrabacion: "45 minutos",
+// ...
   },
   {
     id: "dia-2",
@@ -52,7 +58,13 @@ export const editorialData: ContentItem[] = [
     cta: "Guarda esta alineación para tu próximo partido.",
     hashtags: ["#VidaSaludable", "#SnackSaludable"],
     viralidad: 7,
-    estado: "Pendiente"
+    estado: "Pendiente",
+    // ...
+copyInstagram: "No recordamos todos los resultados de un Mundial. Pero sí recordamos con quién lo vimos. En JOYFULL creemos que los mejores momentos siempre se disfrutan juntos. ¿Quién es el personaje más divertido de tu familia cuando hay partido?",
+copyTikTok: "Identifica a tu familia en este video 😂⚽",
+dificultad: "Baja",
+tiempoGrabacion: "45 minutos",
+// ...
   },
   {
     id: "dia-3",
@@ -77,7 +89,13 @@ export const editorialData: ContentItem[] = [
     cta: "¿Qué valor agregarías a esta selección?",
     hashtags: ["#Joyfull", "#VidaSaludable"],
     viralidad: 7,
-    estado: "Pendiente"
+    estado: "Pendiente",
+    // ...
+copyInstagram: "No recordamos todos los resultados de un Mundial. Pero sí recordamos con quién lo vimos. En JOYFULL creemos que los mejores momentos siempre se disfrutan juntos. ¿Quién es el personaje más divertido de tu familia cuando hay partido?",
+copyTikTok: "Identifica a tu familia en este video 😂⚽",
+dificultad: "Baja",
+tiempoGrabacion: "45 minutos",
+// ...
   },
   {
     id: "dia-4",
@@ -101,7 +119,13 @@ export const editorialData: ContentItem[] = [
     cta: "Etiqueta a esa mamá campeona.",
     hashtags: ["#Mamá", "#Familia", "#JoyfullEcuador"],
     viralidad: 9,
-    estado: "Pendiente"
+    estado: "Pendiente",
+    // ...
+copyInstagram: "No recordamos todos los resultados de un Mundial. Pero sí recordamos con quién lo vimos. En JOYFULL creemos que los mejores momentos siempre se disfrutan juntos. ¿Quién es el personaje más divertido de tu familia cuando hay partido?",
+copyTikTok: "Identifica a tu familia en este video 😂⚽",
+dificultad: "Baja",
+tiempoGrabacion: "45 minutos",
+// ...
   },
   {
     id: "dia-5",
@@ -125,7 +149,13 @@ export const editorialData: ContentItem[] = [
     cta: "Escribe tu ritual.",
     hashtags: ["#HumorFutbol", "#JoyfullEcuador"],
     viralidad: 9,
-    estado: "Pendiente"
+    estado: "Pendiente",
+    // ...
+copyInstagram: "No recordamos todos los resultados de un Mundial. Pero sí recordamos con quién lo vimos. En JOYFULL creemos que los mejores momentos siempre se disfrutan juntos. ¿Quién es el personaje más divertido de tu familia cuando hay partido?",
+copyTikTok: "Identifica a tu familia en este video 😂⚽",
+dificultad: "Baja",
+tiempoGrabacion: "45 minutos",
+// ...
   }
   ,
   {
@@ -151,6 +181,12 @@ export const editorialData: ContentItem[] = [
     cta: "Etiqueta a tu amigo que es exactamente así.",
     hashtags: ["#JoyfullEcuador", "#Mundial", "#HumorFutbol", "#Hinchas"],
     viralidad: 9,
-    estado: "Pendiente"
+    estado: "Pendiente",
+    // ...
+copyInstagram: "No recordamos todos los resultados de un Mundial. Pero sí recordamos con quién lo vimos. En JOYFULL creemos que los mejores momentos siempre se disfrutan juntos. ¿Quién es el personaje más divertido de tu familia cuando hay partido?",
+copyTikTok: "Identifica a tu familia en este video 😂⚽",
+dificultad: "Baja",
+tiempoGrabacion: "45 minutos",
+// ...
   }
 ];

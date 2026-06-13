@@ -104,6 +104,47 @@ export default function ContentDetailModal({ content, isOpen, onClose, onStatusC
                         {tag}
                       </span>
                     ))}
+                    {/* --- NUEVA SECCIÓN: DETALLES Y COPYS --- */}
+        <div className="mt-8 border-t border-slate-100 pt-6">
+          
+          {/* Detalles Técnicos */}
+          <div className="flex gap-6 mb-6 text-sm">
+            <div className="bg-slate-50 px-4 py-2 rounded-lg border border-slate-100">
+              <span className="text-slate-500 block text-xs uppercase font-bold mb-1">Dificultad</span>
+              <span className="text-slate-800 font-medium">{content.dificultad || 'No definida'}</span>
+            </div>
+            <div className="bg-slate-50 px-4 py-2 rounded-lg border border-slate-100">
+              <span className="text-slate-500 block text-xs uppercase font-bold mb-1">Tiempo de grabación</span>
+              <span className="text-slate-800 font-medium">{content.tiempoGrabacion || 'No definido'}</span>
+            </div>
+          </div>
+
+          {/* Copys para Redes */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {/* Instagram */}
+            <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-4 rounded-xl border border-pink-100">
+              <h4 className="font-bold text-pink-800 text-xs mb-2 flex items-center gap-2">
+                COPY INSTAGRAM
+              </h4>
+              {/* whitespace-pre-line respeta los saltos de línea de tus textos */}
+              <p className="text-sm text-pink-950 whitespace-pre-line">
+                {content.copyInstagram || 'Falta redactar copy...'}
+              </p>
+            </div>
+
+            {/* TikTok */}
+            <div className="bg-slate-50 p-4 rounded-xl border border-slate-200">
+              <h4 className="font-bold text-slate-800 text-xs mb-2 flex items-center gap-2">
+                COPY TIKTOK
+              </h4>
+              <p className="text-sm text-slate-700 whitespace-pre-line">
+                {content.copyTikTok || 'Falta redactar copy...'}
+              </p>
+            </div>
+          </div>
+          
+        </div>
+        {/* --- FIN NUEVA SECCIÓN --- */}
                   </div>
                 </div>
               </div>

@@ -8,13 +8,15 @@ export interface ContentItem {
   formato: Formato;
   tema: string;
   gancho: string;
-  guion: string | string[];
+  guion: string[];
   tomas: string[];
   cta: string;
   hashtags: string[];
-  viralidad: number; // del 1 al 10
+  viralidad: number;
   estado: Estado;
-  fechaGrabacion?: string;
-  fechaEdicion?: string;
-  fechaPublicacion?: string;
+  // --- NUEVOS CAMPOS ---
+  copyInstagram?: string;
+  copyTikTok?: string;
+  dificultad?: string;
+  tiempoGrabacion?: string;
 }
